@@ -4,7 +4,7 @@ class Demo{
         x=10;
     }
 }
-
+// this is an exmale if a cinstrucnti rusid in thisIde 
 class Main {
     public static void main (String[] args) {
         Demo t1  = new Demo();
