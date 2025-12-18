@@ -2,9 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run Main",
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_e27e4a0c"
+        },
+        {
             "name": "Launch Main",
+            "type": "java",
             "request": "launch",
             "mainClass": "Main",
             "projectName": "java",
