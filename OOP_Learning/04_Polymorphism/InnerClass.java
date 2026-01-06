@@ -17,3 +17,4 @@ public class InnerClass{
         System.out.println("Value of y: " + inner.y);
     }
 }
+// 
