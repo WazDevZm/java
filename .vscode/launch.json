@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tenary",
+            "request": "launch",
+            "mainClass": "Tenary",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "OuterClass",
             "request": "launch",
             "mainClass": "OuterClass",
