@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nested",
+            "request": "launch",
+            "mainClass": "Nested",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "BankAccount",
+            "request": "launch",
+            "mainClass": "BankAccount",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "SuperKeyword",
+            "request": "launch",
+            "mainClass": "SuperKeyword",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "TestSuper1",
+            "request": "launch",
+            "mainClass": "TestSuper1",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Tenary",
             "request": "launch",
             "mainClass": "Tenary",
