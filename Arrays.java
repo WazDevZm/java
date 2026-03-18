@@ -10,14 +10,14 @@ public class Arrays {
         // printijg out the rows
         for (int i = 0; i < marks.length; i++){
             for(int j = 0; j <marks.length; j ++){
-                System.out.println([i][j] + "");
+                System.out.println(marks[i][j] + "");
             }
 
 
 
 
 
-
+// learning how to use Math.random in Java
 
 
         }

@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle1",
+            "request": "launch",
+            "mainClass": "REVIEW_ONE.Triangle1",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "REVIEW_ONE.Triangle",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Nested",
             "request": "launch",
             "mainClass": "Nested",
