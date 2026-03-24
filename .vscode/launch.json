@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "ARRAYS.Exercise",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "Array_List",
+            "request": "launch",
+            "mainClass": "ARRAYS.Array_List",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Pattern3",
             "request": "launch",
             "mainClass": "REVIEW_ONE.Pattern3",
