@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Constructor_Demo",
+            "request": "launch",
+            "mainClass": "ARRAYS.Constructor_Demo",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Exercise",
             "request": "launch",
             "mainClass": "ARRAYS.Exercise",
