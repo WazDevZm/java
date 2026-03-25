@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShapeArea",
+            "request": "launch",
+            "mainClass": "ShapeArea",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Constructor_Demo",
             "request": "launch",
             "mainClass": "ARRAYS.Constructor_Demo",
