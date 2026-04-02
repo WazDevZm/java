@@ -17,6 +17,9 @@ public class Pattern2
                 num++; // this will increase the coundter by one;
 
             } System.out.println();
+
+
+        // this is [ttern tht adds a disrte layer to htid methiond]
         }
     }
 } // this logic is correct and makes ultimate sense, very much!!!!

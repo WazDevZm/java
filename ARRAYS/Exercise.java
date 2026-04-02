@@ -20,10 +20,18 @@ public class Exercise {
             System.out.print("Please enter the name of your fruit: ");
             //Scanner fruit = new Scanner(String);
 
-            Scanner fruit = new Scanner(System.in);
+            // to key in some vakuses we use SINSS
+            Scanner input = new Scanner(System.in);
+
+            int nextNumber = input.nextInt();
+
+            
+
+
 
 
     }
 
     
 }
+// here we tryt to wurth a recurseve function that is able to call it self
