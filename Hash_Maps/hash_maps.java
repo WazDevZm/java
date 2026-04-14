@@ -1,6 +1,8 @@
 package Hash_Maps;
 import java.text.ListFormat.Style;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 // DAY ONE OF TEST 2 PREP
 public class hash_maps {
     // this is an Array List and it very dynamic and the other DS that is used to store items is called the Hash Map
@@ -23,6 +25,24 @@ public class hash_maps {
     // this is the methi ussed to get the item or the objectfrom the String
     // this will return the value being attached to the key
     System.out.println(map.get("Mango"));
+    System.out.println(map.keySet());
+    System.out.println(map.values());
+    System.out.println(map.entrySet());
+    // this is the method used to remove the item from the map
+    map.remove("Mango");
+    // USING THHE FOR each loop to travser terhough this map
+    // using an enhanced for loop
+    for (Entry<String, Integer> item: map.entrySet()){
+        System.out.println(item.getKey()+ " " + item.getValue());
+        
+    }
+    // Uing the forEach (Lambda Method)
+
+    map.forEach((String K, Integer V)-> {
+        System.out.println(K + " " + V);
+    });
+    // 
+
   }
 
     
