@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "task_1",
+            "request": "launch",
+            "mainClass": "Hash_Maps.task_1",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "hash_maps",
             "request": "launch",
             "mainClass": "Hash_Maps.hash_maps",
