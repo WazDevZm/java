@@ -1,50 +1,48 @@
 package Hash_Maps;
-import java.text.ListFormat.Style;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Map.Entry;
-// DAY ONE OF TEST 2 PREP
-public class hash_maps {
-    // this is an Array List and it very dynamic and the other DS that is used to store items is called the Hash Map
-    // A hash map is a map nas fthtere is no indexing of this list and all the itemes akk , having a key and a value, use the and ste them using key vlaue paies, suppky them
-    // using the key and need to retried the key to get the values iusing the key valeu pairs and a For each looop to trvaese a ,map. Array list i a class you us to dreives the list
-    // list is sis a super class aof the List,\
-    // Hash mao is a sub class of the map, this isn ans Abrsrtact, they are not intianiseted,
-    // thi sis a raw has map and tis has not intisliation jsujyst the declaration but indicate they key and thw value of thi slesit
 
-  public static void main (String[] args) {
-    HashMap <String, Integer> map = new HashMap<>(); // this is raw, when that is placed the delcation is vry complet and is cnsodeses complete
-/// we are using thr Wrapper classes in 
+// Day 1: Test 2 Preparation - HashMap basics
+public class hash_maps {
+
+  /*
+   * HashMap Notes:
+   * 1. HashMap stores data as key-value pairs.
+   * 2. Keys are unique; values can be duplicated.
+   * 3. HashMap does not maintain insertion order.
+   * 4. This example uses wrapper classes (String, Integer) with generics.
+   */
+  public static void main(String[] args) {
+    HashMap<String, Integer> map = new HashMap<>();
+
+    // Add entries: put(key, value)
     map.put("Mango", 45);
     map.put("Banana", 56);
-    map.put("Orange", 456); // no ingherent order in this map, Brrerrt, thi sis becuase there is no indexinf of the postion this is a hashed map, with Key clase mamwlpemes
-    System.out.println(map);
+    map.put("Orange", 456);
 
+    // Print full map
+    System.out.println(map);
     System.out.println();
 
-    // this is the methi ussed to get the item or the objectfrom the String
-    // this will return the value being attached to the key
+    // Access data by key
     System.out.println(map.get("Mango"));
+
+    // View keys, values, and key-value entries
     System.out.println(map.keySet());
     System.out.println(map.values());
     System.out.println(map.entrySet());
-    // this is the method used to remove the item from the map
+
+    // Remove an entry by key
     map.remove("Mango");
-    // USING THHE FOR each loop to travser terhough this map
-    // using an enhanced for loop
-    for (Entry<String, Integer> item: map.entrySet()){
-        System.out.println(item.getKey()+ " " + item.getValue());
-        
+
+    // Traverse using enhanced for-loop
+    for (Entry<String, Integer> item : map.entrySet()) {
+      System.out.println(item.getKey() + " " + item.getValue());
     }
-    // Uing the forEach (Lambda Method)
 
-    map.forEach((String K, Integer V)-> {
-        System.out.println(K + " " + V);
+    // Traverse using forEach with lambda
+    map.forEach((String key, Integer value) -> {
+      System.out.println(key + " " + value);
     });
-    // 
-
   }
-
-    
-    
 }
