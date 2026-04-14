@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hash_maps",
+            "request": "launch",
+            "mainClass": "Hash_Maps.hash_maps",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "ShapeArea",
             "request": "launch",
             "mainClass": "ShapeArea",
