@@ -28,9 +28,21 @@ public class Program_1 {
             }
         }
         // Prompt the user to enter the elements of the second matrix.
+        System.out.println("Enter the elements of the second matrix");
 
-
+        for (int i = 0; i < rows; i ++) {
+            for ( int j = 0; j < cols; j ++ ){
+                second [i] [j] = input.nextInt()
+            }
         
+        // Add the two matrices and store the result in the sum matrix
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                sum [i] [j] = first [i] [j] + second [i] [j];
+            }
+        }
+
+
 
     
 
