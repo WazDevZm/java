@@ -41,13 +41,17 @@ public class Program_1 {
                 sum [i] [j] = first [i] [j] + second [i] [j];
             }
         }
-
-
-
-    
-
-
-
+      // print the result of the addition
+      System.out.println("The sum of the two matrices is:");
+      for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            System.out.print(sum [i] [j] + " ");
+// after printing each row, print a new line
+        }
+        System.out.println();
+      }
+      // close the scanner object to prevent memory leaks
+      input.close(); // this is good practice to prevent any memory leaks....
     }
 
 }
