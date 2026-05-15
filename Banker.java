@@ -17,7 +17,20 @@ public class Banker {
         System.out.println("*********************************")
         // Create a new Scanner ojedt that will read inpur from the user
          Scanner input = new Scanner.(System.in);
-         int enterNumber = input.nextInt();
+
+         choice = input.nextInt();
+
+         // createing a switch statement to handle the user input
+         switch (choice) { // this is an enhanced switch
+            case 1 -> System.out.println("SHOW BALANCE");
+            case 2 -> System.out.println("DEPOSIT");
+            case 3 -> System.out.println("WITHDRAW");
+            case 4 -> isRunning = false;
+            default -> System.out.println("INVALID CHOICE");
+            // we are placing all the choicec in this case using ->
+            
+         }
+   
     
          
          
