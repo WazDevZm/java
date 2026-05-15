@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stack1",
+            "request": "launch",
+            "mainClass": "Stack1",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "Stack",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "task_1",
             "request": "launch",
             "mainClass": "Hash_Maps.task_1",
