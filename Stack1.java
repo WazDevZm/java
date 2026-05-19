@@ -21,5 +21,13 @@ public class Stack1 {
         for  ( int i = 0;  i < 1000000; i++) {
             stack.push(469);
         }
+
+    Stack<String> mynames = new Stack<>();
+    // this is a new stack to store the names of my friends
+    mynames.push("Peter");
+    mynames.push("Mwaba");
+    mynames.push("John");
+    mynames.push("Gem";
+    
     }
 }
