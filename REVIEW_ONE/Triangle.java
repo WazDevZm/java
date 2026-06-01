@@ -1,5 +1,4 @@
-package REVIEW_ONE;
-
+package REVIEW_ONE;// hot to mak importation from the class
 /**
  * Triangle — Prints a numeric triangle where each row shows 1 through row number.
  * 

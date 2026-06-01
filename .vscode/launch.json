@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Class_Lesson",
+            "request": "launch",
+            "mainClass": "Class_Lesson",
+            "projectName": "java_3a66582f"
+        },
+        {
+            "type": "java",
             "name": "Stack1",
             "request": "launch",
             "mainClass": "Stack1",

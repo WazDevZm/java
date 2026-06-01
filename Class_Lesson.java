@@ -17,18 +17,30 @@ class Fruit{
      };
 
 }
-public class Class_Lesson {
-    public static void main (String[]args) {
-    Fruit fruit1 = new Fruit("Mango", 45.56);
+// creatting a new class called Student
+class Student {
+     String name;
+     int age;
+     String grade;
 
-    System.out.println("The name of the fruit is: " + fruit1.name); // using the constructor this works
+     // i will try to create a construtors for this class using the
+     
 }
- // TODO
- // look into packages and how to import classes from another class
+public class Class_Lesson {
+     static String Student = "Wazingwa";
+     public static void main (String[]args) {
+          Fruit fruit1 = new Fruit("Mango", 45.56);
 
+          System.out.println("The name of the fruit is: " + fruit1.name); // using the constructor this works
+          System.out.println(Student);
+     }
+// TODO
+// look into packages and how to import classes from another class
+// local variable cannot be static and the other this is hat it alays has to be intialasized before it is used.
 // when using classes in a java file, the access modifiers used are package and
 //the public
 // getters and setters and
 // constructor
 // from the observation we see that the 
+// this is a qualifier name, is only for the object, we only use it on the name and not on the static variable
 }
